@@ -1,0 +1,46 @@
+# There are 3 numbers type in python
+# int
+# float
+#complex
+
+# Variables of numeric types are created when you assign a value to them
+
+# x = 1    # int
+# y = 2.8  # float 
+# z = 1j    #complex
+
+# to verify the type of the function in python use the type() function 
+
+# print(type(x))
+# print(type(y))
+# print(type(z))
+
+# Type conversion
+
+# You can convert from one type to another with the int(), float(), and complex() methods:
+
+x = 23
+y = 49.5
+z = 91j
+
+# convert from int to float
+
+a = float(x)
+
+# convert from float to int
+
+b = int(y)
+
+# convert from int to complex
+
+c = complex(z)
+
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
